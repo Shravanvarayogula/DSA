@@ -54,6 +54,9 @@ public class MergeSort {
 		System.out.println("Calling Merge for both subarrays");
 		merge(a,left,mid,right);
 		}
+		else {
+			System.out.println("Left !< Right");
+		}
 	}
 	
 	static void display(int a[]) {
