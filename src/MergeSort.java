@@ -55,7 +55,7 @@ public class MergeSort {
 		merge(a,left,mid,right);
 		}
 		else {
-			System.out.println("Left !< Right");
+			System.out.println("Left Index !< Right Index");
 		}
 	}
 	
